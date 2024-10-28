@@ -37,8 +37,8 @@ If installation did not result in header files being automatically added to /usr
 
 COMPILATION ____________________
 
-Naviagate to directory with main.cpp using cd command (ysw/src/main.cpp)
+Naviagate to directory with main.cpp using cd command (Project6L/src/main.cpp)
 In terminal enter the following commands
 	
- 	g++ main.cpp TextRenderer.cpp -o run -lGL -lGLEW -lglfw -lfreetype
+ 	g++ main.cpp TextRenderer.cpp -o run -lGL -lGLEW -lglfw -lfreetype -I/usr/include/freetype2
 	./run
